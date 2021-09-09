@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Crud em Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="col8 m-auto pt-2 pb-2 text-center">
+        <h1>Dados da Cirurgia</h1>
+     </div>
+
+
+    <div class="col8 m-auto pt-2 pb-3 text-center">
+        <a href="http://localhost:63342/Python/app/templates/form.html?_ijt=q4ec60oec4enrfkd8ccomp7sfs" class="btn btn-success">Adicionar</a>
+    </div>
+
+    <div class="col8 m-auto pt-4 pb-2 text-center">
+    <div class="table table-striped">
+   <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nome</th>
+      <th scope="col">CPF</th>
+      <th scope="col">Cirurgia</th>
+      <th scope="col">ações</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{% for dbs in db %}}
+  <tr>
+      <th>{{dbs.id}}</th>
+      <td>{{dbs.Nome}}</td>
+      <td>{{dbs.CPF}}</td>
+      <td>{{dbs.Cirurgia}}</td>
+      <td>
+          <a href="view/{{dbs.id}}/" class="btn btn-dark">Visualizar</a>
+          <a href="edit/{{dbs.id}}/" class="btn btn-dark">Editar</a>
+          <a href="delete/{{dbs.id}}/" class="btn btn-dark">Deletar</a>
+      </td>
+    </tr>
+  {{% end for %}}
+         </tbody>
+      </table>
+    </div>
+
+</body>
+
+</html>

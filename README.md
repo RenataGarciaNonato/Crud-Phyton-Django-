@@ -4,17 +4,17 @@
   
   - **IDE Pycharm || Python** 
 
-- Django
+- **Django**
 
-- Bootstrap
+- **Bootstrap**
 
-- Javascript
+- **Javascript**
 
-- Banco de Dados: SQLite
+- **Banco de Dados: SQLite**
 
-- HTML
+- **HTML**
 
-- CSS
+- **CSS**
 </div>
 </br>
 

@@ -2,19 +2,19 @@
 ## :computer: Tecnologias utilizadas 
 <div class="tecnologias" style= "text-align:justify">
   
- *-IDE Pycharm || Python*
+  * - IDE Pycharm || Python *
 
--Django
+- Django
 
--Bootstrap
+- Bootstrap
 
--Javascript
+- Javascript
 
--Banco de Dados: SQLite
+- Banco de Dados: SQLite
 
--HTML
+- HTML
 
--CSS
+- CSS
 </div>
 </br>
 

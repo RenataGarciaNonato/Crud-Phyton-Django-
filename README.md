@@ -1,3 +1,5 @@
+## CRUD Python
+<div style="text-align:center">
 ## :computer: Tecnologias utilizadas 
 <div class="tecnologias" style= "text-align:justify">
 -IDE Pycharm || Python
@@ -7,4 +9,5 @@
 -Banco de Dados: SQLite
 -HTML
 -CSS
+</div>
 </div>

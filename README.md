@@ -1,7 +1,6 @@
 #**CRUD Python**
-<div style="text-align:center">
+
 ## :computer: Tecnologias utilizadas 
-<div class="tecnologias" style= "text-align:justify">
 
 *IDE Pycharm || Python
 *Django
